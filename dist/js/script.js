@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){e("#owl-products").owlCarousel({autoplay:!0,autoplayTimeout:2500,loop:!0,nav:!0,responsiveClass:!0,margin:30,responsiveClass:!0,responsive:{0:{items:1},767:{items:2},992:{items:2}}}),e(".carousel").swipe({swipeLeft:function(){e(this).carousel("next")},swipeRight:function(){e(this).carousel("prev")},allowPageScroll:"vertical"})});
